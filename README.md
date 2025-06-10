@@ -1,1 +1,3 @@
 # Chatbox
+
+This project involves building a chat client and server, similar to X/Twitter. It includes the development of both a client and server program. The server is capable of handling multiple client connections simultaneously. Clients connect to the server and handle user commands until the user chooses to exit. Messages sent by clients include hashtags, and clients can subscribe to specific hashtags. The server forwards messages to all clients subscribed to the corresponding hashtag. Clients store these messages until the user issues the timeline command to view them. The server manages concurrent client connections and is responsible for receiving uploaded messages and forwarding them to the appropriate clients based on hashtags
